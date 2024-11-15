@@ -15,9 +15,7 @@ const routes = {
   ["ghcr." + "www.chengxt.top"]: "https://ghcr.io",
   ["cloudsmith." + "www.chengxt.top"]: "https://docker.cloudsmith.io",
   ["ecr." + "www.chengxt.top"]: "https://public.ecr.aws",
-
-  // staging
-  ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
+  ["docker-staging." + "www.chengxt.top"]: dockerHub,
 };
 
 function routeByHosts(host) {
